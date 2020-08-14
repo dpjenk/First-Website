@@ -11,6 +11,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  height: 150px;
+}
 header, footer {
   background-color: #deb887;
   color: #47260e;
@@ -19,9 +22,14 @@ header, footer {
 main {
   background-color: #faebd7;
   padding-left: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
+article {
+  padding: 0 25%;
+
+}
 /*  TYPES  */
 
 h1, h2, h3 {
@@ -33,7 +41,7 @@ h1, h2, h3 {
 
 h1, h2 {
   font-size: 50px; 
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 p {
@@ -55,8 +63,9 @@ a:active {color: #008000;}
 
 hr {
  border: 2px solid #deb887;
- margin: 30px auto;
+ margin: 10px auto;
 }
+
 header h1, h3 {
  padding: 10px; 
 }
@@ -64,7 +73,7 @@ header h1, h3 {
   padding-top: 10px;
 }
 .intro p, .about p, .contact p {
-   margin-left: 30px;
+  margin-left: 30px;
 }
 
 .intro ul li, .contact ol li {
@@ -84,6 +93,5 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 50%;
-  border-radius: 50%;
+  height: 50%
 }
